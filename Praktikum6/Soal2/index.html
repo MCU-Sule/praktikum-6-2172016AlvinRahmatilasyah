@@ -1,0 +1,185 @@
+<html>
+    <head>
+        <title>index</title>
+        <meta name ="author" content="AlvinRahmatilasyah 2172016"> 
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,400;1,300&display=swap" rel="stylesheet">
+    </head>
+    <style>
+        body { background-image: url(background.jpg) ;
+                background-size: cover;
+                background-attachment: fixed;  
+                font-family: 'Mulish', sans-serif;
+        }
+        p {
+            color: navy;
+            text-align: center;
+            font-size: 80px;
+            letter-spacing: 5px;
+            margin-top: 40px;
+        }
+        #form {
+            display: flex;
+            margin-top: 80px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #form1 { 
+            background-color: rgba(200, 214, 229,0.8);
+            width: 800px;
+            height: 1300px;
+            margin-top: 40px;
+            margin-left: auto
+        }
+        #form2 { 
+            background-color: rgba(220, 221, 225,0.8);
+            width: 800px;
+            height: 1300px;
+            margin-top: 40px;
+            margin-right: auto;
+        }
+        #submit1 {
+                border-radius: 50px;
+                text-align: center;
+                background-color: #2ed573; 
+                width: 350px;
+                height: 65px;
+                margin-top: 80px;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+                color: white;
+                padding-top: 20px;
+                font-size: 30px;
+        }
+        #submit2 {
+            background-color: #38ada9;
+            width: 380px;
+            height: 65px;
+            border-radius: 50px;
+            margin-top: 80px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            color: white;
+            padding-top: 20px;
+            font-size: 30px;
+        }
+        .a1 {
+            margin-top: 220px;
+            text-align: center;
+            font-size: 70px;
+            color: rgba(057, 057, 061, 3);
+            font-weight: bolder;
+        }
+        .a2 { 
+            margin-top: 40px;
+            text-align: center;
+            font-size: 70px;
+            color: rgba(057, 057, 061, 3);
+        }
+        #a3 {
+            margin-top: 50px;
+            margin-left: 120px;
+            font-size: 45px;
+            opacity: 70%;
+        }
+        #a4 {
+            margin-top: 20px;
+            margin-left: 120px;
+            font-size: 35px;
+            opacity: 70%;
+        }
+        #a5 {
+            margin-top: 20px;
+            margin-left: 100px;
+            font-size: 35px;
+            opacity: 70%;
+            word-spacing: 30px;
+        }
+        #input1 {
+            border: none;
+            border-bottom: 1px solid grey;
+            background-color: rgba(200, 214, 229,0.8);
+            outline-width: 0;
+            width: 560px;
+            font-size: 30px;
+        }
+        #input2 {
+            border: none;
+            border-bottom: 1px solid grey;
+            background-color: rgba(220, 214, 229,0.8);
+            outline-width: 0;
+            width: 560px;
+            font-size: 22px;
+        }
+        #input3 {
+            width: 2em;
+            height: 2em;
+            margin-left: 20px;
+        }
+        #input4 {
+            width: 2em;
+            height: 2em;
+        }
+        #fp {
+            text-align: center;
+            color: blue;
+            font-size: 25px;
+        }
+        #submit1:hover {
+                 background-color: rgba(200, 214, 229,0.8);
+                 color: #2ed573;
+                 border: 1px solid #2ed573;
+                 transition-duration: 0.3s;
+        }
+        #submit2:hover {
+            background-color: rgba(220, 221, 225,0.8);
+            color: #38ada9;
+            border: 1px solid #38ada9;
+            transition-duration: 0.3s;
+        }
+    </style>
+    <body>
+        <div id="all"> 
+            <p><b>Fill in this form</b></p>
+            <div id="form">
+            <div id="form1">
+                <h1 class="a1"><a1><i>Sign in</a1></i></h1> <br>
+                <form action="">
+                <div id="a3"> Email <br>
+                <input type="text" name="email" id="input1" placeholder="nrp@maranatha.ac.id" > <br><br>
+                Password <br>
+                <input type="password" name="password" id="input1"> <br><br>
+                </div>
+                <div id="submit1">Sign in</div> <br>
+                <div id="fp">forgot password?</div>
+            </form>
+            </div>
+
+            <div id="form2">
+                <h1 class="a2"><a1><i>Register</i></a1></h1>
+                <form action="">
+                    <div id="a4">
+                    Name <br>
+                    <input type="text" name="name" id="input2"> <br><br>
+                    Email <br>
+                    <input type="text" name="email" id="input2"><br> <br>
+                    Date of birth <br>  
+                    <input type="date" name="daye" id="input2"> <br> <br>
+                    Address <br>
+                    <input type="text" name="address" id="input2"> </div> <br>
+                    <div id="a4">Gender</div>
+                    <div id="a5"><input type="radio" name="" id="input3"> Male 
+                    <input type="radio" name="" id="input3"> Female </div> <br>
+                    <div id="a5">Hobby <br>
+                    <input type="checkbox" name="" id="input4"> Singing <br> 
+                    <input type="checkbox" name="" id="input4"> Playing <br>
+                    <input type="checkbox" name="" id="input4"> Ngoding </div> 
+                    <div id="submit2">Register </div> 
+                </form>
+            </div>
+        </div>
+        </div>
+    </body>
+    </html>
